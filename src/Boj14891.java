@@ -8,6 +8,7 @@ public class Boj14891 {
     static int[] visited;
 
     public static void main(String[] args) throws IOException {
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         clocks = new int[4][8];
         visited = new int[4];
@@ -42,7 +43,10 @@ public class Boj14891 {
             score += 8;
         }
         System.out.println(score);
-
+//        int x = 1;
+//        for(int i = 0;i<4;i++){
+//            System.out.println((x << i));
+//        }
     }
 
     public static void turn(int clockNum, int turnTo){
